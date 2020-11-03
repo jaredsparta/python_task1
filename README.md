@@ -9,7 +9,7 @@
 # input are strings already and the names should be string, so no need to cast them
 # the age should be an integer so i cast using int()
 first_name = input("What's your first name? ").capitalize()
-middle_name = input("If you have a middle name please input, otherwise leave blank -> ").capitalize()
+middle_name = input("If you have a middle name please input (if not, press enter): ").capitalize()
 last_name = input("What's your last name? ").capitalize()
 age = int(input("How old are you? "))
 
@@ -25,8 +25,10 @@ educ = input("What university education do you do? ").capitalize()
 
 # these print statements will print out the information
 # they are grouped in what i thought were similar categories
-print("\nNAME:", first_name, middle_name, last_name, f"\n You are {age} years old")
-print("You live at:", address, postcode)
-print("You NI number is:", ni_no)
-print("You applied for", course, "at Sparta and you studied", educ)
+print("\nNAME:", first_name, middle_name, last_name)
+print("AGE:", age)
+print("ADDRESS:", address, postcode)
+print("NI NUMBER:", ni_no)
+print("EDUCATION:", educ)
+print("You applied for", course, "at Sparta")
 ```
