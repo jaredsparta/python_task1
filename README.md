@@ -7,7 +7,7 @@
 
 ```python
 # input are strings already and the names should be string, so no need to cast them
-
+# the age should be an integer so i cast using int()
 first_name = input("What's your first name? ").capitalize()
 middle_name = input("If you have a middle name please input, otherwise leave blank -> ").capitalize()
 last_name = input("What's your last name? ").capitalize()
